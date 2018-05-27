@@ -19,6 +19,9 @@ Thumbs.db
 
 # composer vendor dir
 vendor
+vendor1
+composer.json
+composer.lock
 
 # composer itself is not needed
 composer.phar
