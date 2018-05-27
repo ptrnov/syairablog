@@ -19,7 +19,9 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "ptrnov/yii2-postman4excel": "*",
-        "dmstr/yii2-adminlte-asset": "^2.1"
+        "dmstr/yii2-adminlte-asset": "^2.1",
+        "cics/yii2-video-embed-widget": "dev-master",
+        "lesha724/yii2-youtube-widget": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
