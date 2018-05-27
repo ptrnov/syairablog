@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
+	'name'=>'Syaira.Net',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
@@ -53,10 +54,29 @@ return [
 	'view' => [
             'theme' => [
                 'pathMap' => [
-			'@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+						// '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+						'@app/views' => '@frontend/views/layouts'
                 ],
             ],
         ],
+	'assetManager' => [
+			'bundles' => [
+				'dmstr\web\AdminLteAsset' => [
+					'skin' => 'skin-black',
+					'skin' => "skin-blue",
+					// 'skin' =>"skin-red",
+					// 'skin' =>"skin-yellow",
+					// 'skin' =>"skin-purple",
+					// 'skin' =>"skin-green",
+					// 'skin' =>"skin-blue-light",
+					// 'skin' =>"skin-black-light",
+					// 'skin' =>"skin-red-light",
+					// 'skin' =>"skin-yellow-light",
+					// 'skin' =>"skin-purple-light",
+					// 'skin' =>'skin-green-light'
+				],
+			],
+		],
     ],
     'params' => $params,
 ];
