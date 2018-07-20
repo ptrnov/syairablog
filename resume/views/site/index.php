@@ -262,33 +262,30 @@ $this->registerCss('
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
     <div class="my-auto">
       <h2 class="mb-5">Education</h2>
-
-      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+      <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0">University of STIKI Malang</h3>
           <div class="subheading mb-3">Bachelor of Science</div>
-          <div>Informatics And Computer Techniques</div>
-          <p>GPA: 2.74</p>
+          <p>GPA: 3.56</p>
         </div>
-        <div class="resume-date text-md-right">
+        <div class="resume-da te text-md-right">
           <span class="text-primary">2000 - 2005</span>
         </div>
-      </div>     
+      </div>      
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0">Senior High School of SMK Nasional Malang</h3>
-          <div class="subheading mb-3">Electrical Engineering</div>
+          <div class="subheading mb-3">Student Of Electrical Engineering</div>
           <p>GPA: 3.56</p>
         </div>
         <div class="resume-da te text-md-right">
           <span class="text-primary">1997 - 2000</span>
         </div>
-      </div>
-      
+      </div>      
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0">Junior High School of Xaverius,Tanjung Sakti (Sum–Sel)</h3>
-          <div class="subheading mb-3">General Lesson</div>
+          <div class="subheading mb-3">Student</div>
           <p>GPA: 3.56</p>
         </div>
         <div class="resume-da te text-md-right">
@@ -298,7 +295,7 @@ $this->registerCss('
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0">Elementary School of Xaverius,Tanjung Sakti (Sum–Sel)</h3>
-          <div class="subheading mb-3">General Lesson</div>
+          <div class="subheading mb-3">Student</div>
           <p>GPA: 3.56</p>
         </div>
         <div class="resume-da te text-md-right">
