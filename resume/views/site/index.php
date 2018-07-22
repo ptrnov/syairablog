@@ -39,12 +39,12 @@ $this->registerCss('
         <a class="nav-link js-scroll-trigger" href="#education">Education</a>
       </li>
      
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
       </li>
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>
@@ -318,11 +318,8 @@ $this->registerCss('
           </div>
 
         </div>      
-      </div>     
-
+      </div>    
       
-
-
     </div>
   </section>
 
@@ -331,9 +328,9 @@ $this->registerCss('
       <h2 class="mb-5">Education</h2>
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">University of STIKI Malang</h3>
-          <div class="subheading mb-3">Bachelor of Science</div>
-          <p>GPA: 3.56</p>
+          <h3 class="mb-0">University</h3>
+          <div class="subheading mb-3">Sekolah Tinggi Informatika dan Komputer Indonesia (STIKI) - Malang</div>
+          <p>Bachelor of Science</p>
         </div>
         <div class="resume-da te text-md-right">
           <span class="text-primary">2000 - 2005</span>
@@ -341,9 +338,9 @@ $this->registerCss('
       </div>      
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Senior High School of SMK Nasional Malang</h3>
-          <div class="subheading mb-3">Student Of Electrical Engineering</div>
-          <p>GPA: 3.56</p>
+          <h3 class="mb-0">Senior High School </h3>
+          <div class="subheading mb-3">SMK Nasional - Malang</div>
+          <p>Student Of Electrical Engineering</p>
         </div>
         <div class="resume-da te text-md-right">
           <span class="text-primary">1997 - 2000</span>
@@ -351,9 +348,9 @@ $this->registerCss('
       </div>      
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Junior High School of Xaverius,Tanjung Sakti (Sum–Sel)</h3>
-          <div class="subheading mb-3">Student</div>
-          <p>GPA: 3.56</p>
+          <h3 class="mb-0">Junior High School</h3>
+          <div class="subheading mb-3">Xaverius Tanjung Sakti - (Sumatra–Selatan)</div>
+          <p>Student</p>
         </div>
         <div class="resume-da te text-md-right">
           <span class="text-primary">1994 - 1997</span>
@@ -361,9 +358,9 @@ $this->registerCss('
       </div>
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Elementary School of Xaverius,Tanjung Sakti (Sum–Sel)</h3>
-          <div class="subheading mb-3">Student</div>
-          <p>GPA: 3.56</p>
+          <h3 class="mb-0">Elementary School</h3>
+          <div class="subheading mb-3">Xaverius Tanjung Sakti - (Sumatra–Selatan)</div>
+          <p>Student</p>
         </div>
         <div class="resume-da te text-md-right">
           <span class="text-primary">1988 - 1994</span>
@@ -375,15 +372,15 @@ $this->registerCss('
 
   
 
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+  <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
     <div class="my-auto">
       <h2 class="mb-5">Interests</h2>
       <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
       <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
     </div>
-  </section>
+  </section> -->
 
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+  <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
     <div class="my-auto">
       <h2 class="mb-5">Awards &amp; Certifications</h2>
       <ul class="fa-ul mb-0">
@@ -416,7 +413,7 @@ $this->registerCss('
           Place - James Buchanan High School - Hackathon 2005</li>
       </ul>
     </div>
-  </section>
+  </section> -->
 
 </div>
 
