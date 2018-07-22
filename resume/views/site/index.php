@@ -61,9 +61,13 @@ $this->registerCss('
                 <!-- <tr ><td><span class="fa fa-user"></span>   Piter Novian</td></tr>                 -->
                 <tr ><td><span class="fa fa-phone" style="color:default"></span>  (021) 53132126</td></tr>
                 <tr ><td><span class="fa fa-tablet fa-1x"></span> 085-883-319-929</td></tr>
-                <tr ><td><span class="fa fa-envelope-o fa-1x"></span><a href="mailto:name@email.com"> ptr.nov@email.com</a></td></tr>
-                <tr ><td><span class="fa fa-flag-o"></span>  Indonesia</td></tr>
-                <tr ><td><span class="fa fa-home">  Perumahan Duta Bintaro Ubud 1 G32no 19, Kunciran Pinang Kota Tangerang.</td></tr>
+                <tr ><td>
+                  <span class="fa fa-envelope-o fa-1x">
+                   <a href="mailto:name@email.com" style="text-transform: lowercase"> ptr.nov@email.com</a>
+                  </span>
+                </td></tr>
+                <tr ><td><span class="fa fa-flag-o" style="text-transform: capitalize"> Indonesia</span></td></tr>
+                <tr ><td><span class="fa fa-home" style="text-transform: capitalize">  Perumahan Duta Bintaro Ubud 1 G32no 19, Kunciran Pinang Kota Tangerang.</td></tr>
               </tbody>
           </table>
           </div>
@@ -72,38 +76,46 @@ $this->registerCss('
       <div>
         <ul class="list-inline list-social-icons col-lg-12">
           <li class="list-inline-item">
-            <a href="#">
+            <a href="#" target="_blank" data-toggle="tooltip" title="Linkedin">
               <span class="fa-stack fa-sm">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
               </span>
-            </a>
+            </a>Linkedin
           </li>
           <li class="list-inline-item">
-            <a href="https://github.com/ptrnov" target="_blank">
+            <a href="https://github.com/ptrnov" target="_blank" data-toggle="tooltip" title="Github Development Source">
               <span class="fa-stack fa-sm">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
               </span>
-            </a>
+            </a>Github
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/ptrnov" target="_blank" data-toggle="tooltip" title="Development Demo">
+              <span class="fa-stack fa-sm">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>Portofolio
           </li>
         </ul>
       </div>
     </div>
       
-    <div class="subheading col-lg-12">
+    <div class="col-lg-12">
       <div class="row">      
         <br>
         <p style="text-align: justify;">
           My name is Piter Novian and I am 36 years old. I has graduated in February 2005  from Information Technology, bachelor degree of Teknik Informatika STIKI Malang. I am capable to develop software, server and network infrastructure.    
           I am a person who always wants to develop and upgrade my skills and experiences. I like to identify, predict, anticipate and solve problems. I am a responsible person, self motivated, dynamic, independent, high committed, good team player and have a positive and proactive mental attitude. I think with my competencies and strong motivation, I can make a valuable contribution to your company.</p>
+        <!-- <p style="text-align: justify;text-transform: capitalize;"> -->
         <p style="text-align: justify;">
           The enclosed resume will provide you with more details of my background. I would be very happy to have the opportunity to meet you to discuss how my background and qualifications could be of use to your company. Please feel free to contact me by phone (021- 53132126/085883319929) or at the address above. Thank you in advance for your time and consideration. 
         </p>
       </div>
     </div>     
-    <div class="subheading mb-5">
-      <div class=" col-lg-12">
+    <div class=" col-lg-12">
           <br>
           <table>
               <tbody>
@@ -116,7 +128,6 @@ $this->registerCss('
                 <tr ><td><b>Piter Novian, S. Kom</b></td></tr>
               </tbody>
           </table>
-      </div>
     </div>
       
   
@@ -213,50 +224,105 @@ $this->registerCss('
 
       <div class="resume-item d-flex flex-column flex-md-row mb-5">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">IT Project Manager</h3>
-          <div class="subheading mb-3">Application development, server and network infrastructure.</div>
-          <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          <h3 class="mb-0">PT. Kogam Artha Sejahtera</h3>
+          <div class="subheading mb-3">IT Project Manager.</div>
+          <p style="text-align: justify;">
+            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+          </p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">March 2013 - Present</span>
+          <span class="text-primary">Feb 2018 – Juli 2018</span>
         </div>
       </div>
 
       <div class="resume-item d-flex flex-column flex-md-row mb-5">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Web Developer</h3>
-          <div class="subheading mb-3">Intelitec Solutions</div>
-          <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          <h3 class="mb-0">PT. Sarana Sinar Surya</h3>
+          <div class="subheading mb-3">IT MANAGER.</div>
+          <p style="text-align: justify;">
+            Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+          </p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">December 2011 - March 2013</span>
+          <span class="text-primary">April 2014 – Jan 2018</span>
         </div>
       </div>
 
       <div class="resume-item d-flex flex-column flex-md-row mb-5">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Junior Web Designer</h3>
-          <div class="subheading mb-3">Shout! Media Productions</div>
-          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+          <h3 class="mb-0">PT. Eurogate Indonesia</h3>
+          <div class="subheading mb-3">Chief IT.</div>
+          <p style="text-align: justify;">
+            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+          </p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">July 2010 - December 2011</span>
+          <span class="text-primary">Dec 2010 - March 2014</span>
         </div>
-      </div>
+      </div>     
 
-      <div class="resume-item d-flex flex-column flex-md-row">
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
         <div class="resume-content mr-auto">
-          <h3 class="mb-0">Web Design Intern</h3>
-          <div class="subheading mb-3">Shout! Media Productions</div>
-          <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">September 2008 - June 2010</span>
-        </div>
-      </div>
+          <h3 class="mb-0">PT. Metro Batavia (Airline)</h3>
+          <div>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <div class="subheading mb-3">IT Server/Network Admin.</div>
+                <p style="text-align: justify;">
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                </p>
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November  2007 - march 2010</span>
+            </div>
+          </div>
+          
+          <div style="margin-top:-3em">
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <div class="subheading mb-3">IT Programing.</div>
+                <p style="text-align: justify;">
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                </p>
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2007 - October 2007</span>
+            </div>
+          </div>
+
+          <div style="margin-top:-3em">
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <div class="subheading mb-3">IT Helpdesk.</div>
+                <p style="text-align: justify;">
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                </p>
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2006 - march 2007</span>
+            </div>
+          </div>
+
+          <div style="margin-top:-3em">
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <div class="subheading mb-3">IT Support Maintenance.</div>
+                <p style="text-align: justify;">
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                </p>
+              </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2006 - Agustus 2006</span>
+            </div>
+          </div>
+
+        </div>      
+      </div>     
+
+      
+
 
     </div>
-
   </section>
 
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
