@@ -2,6 +2,7 @@
 use resume\assets\AppAssetResume;
 AppAssetResume::register($this); 
 
+$this->title = 'ptr.nov';
 $this->registerCss('
 .borderless {
   border:none;
