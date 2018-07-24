@@ -228,7 +228,16 @@ $this->registerCss('
           <h3 class="mb-0">PT. Kogam Artha Sejahtera</h3>
           <div class="subheading mb-3">IT Project Manager.</div>
           <p style="text-align: justify;">
-            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+             Company is involved in information technology services with Financial Technology products (FinTech). I as a project manager do the task of building from scratch, server infrastructure, network and scurity, also do the making of the application. For overview Infrastructure in general, using public network (ISP didicated) and server using API and Web-Portal, while for clients using web portal and mobile (Android and IOS).
+          </p>
+          <p style="text-align: justify;">
+            For Server/network and security infrastructure, we are upgrading with powerful devices in the market such as (IBM/HP Server,Cisco Router, Cisco Catalyst, Microtik, Fortigate Firewall), some of which we use opensource applications (linux Ubuntu, Samba, VMware, Apache2, Mysql, Php, NodeJs, Npm, ExpressJs API, Rest API YII2).
+          </p>
+          <p style="text-align: justify;">
+            For web portal application development we use Yii2/ Laravel/ CodeIgniter framework and for API using ExpressJs/ Restfull YII2 framework and our mobile (IOS/Android) clients use Ionic, AngularJs, TypeScript, SCSS. And for Tools with Visual Studio Code, Xcode, Notepad++, PhpStorm etc, As for Database using Mysql (DDL/DML,PL/SQL,Partition,Clustring).
+          </p>
+          <p style="text-align: justify;">
+            From all of that, our main focus is "Business Flow". Since it all starts here we can start collecting data, map out approaches, build databases, and set targets to achieve. There are too many technical or conceptual compositions in this case, and I'm not enough place to explain them all, that's the picture I can explain here.
           </p>
         </div>
         <div class="resume-date text-md-right">
@@ -241,7 +250,13 @@ $this->registerCss('
           <h3 class="mb-0">PT. Sarana Sinar Surya</h3>
           <div class="subheading mb-3">IT MANAGER.</div>
           <p style="text-align: justify;">
-            Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+            The company is engaged in food/beverage and retail. To support the enterprise level between the branch, field operations / sales and headquarters, IT departments become one of the main business, transaction processing data, data mining for the needs of department Accounting, sales, HRD to obtain detailed data, including sales data, purchases, schadule, data of employee, payroll and operational data. Furthermore, we call ERP (Enterprise Resource Planning).
+          </p>
+          <p style="text-align: justify;">
+            Our main task is to automatically generate reports and submit to all interested parties and build application solutions for surface support, GUI user interface, and deployment.
+          </p>
+          <p style="text-align: justify;">
+            For cashier we use visual basic 6 program with sqlserver 2000 database support. As for ERP application between depertment we use Framework YII2. and for salesforce between sales in making visits using Android phones built from the Ionic Framework and Restful API.
           </p>
         </div>
         <div class="resume-date text-md-right">
@@ -254,7 +269,10 @@ $this->registerCss('
           <h3 class="mb-0">PT. Eurogate Indonesia</h3>
           <div class="subheading mb-3">Chief IT.</div>
           <p style="text-align: justify;">
-            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+            The company is engaged in manufacrute garment. Where the head office is located in Cibinong Bogor, and its branches are located in Sukabumi and Myanmar country. The program we have developed is the supplychain program, starting from orders, master plans, product design, cost centers, material purchases, production schedules, warehause import exports.
+          </p>
+          <p style="text-align: justify;">
+            Our infrastructure builds and develops data communications between branches very simply, using VPN (EOIP, PPTP). While the program we build with Visual Basic 6, also with SQLServer2000 database. And there are some internal applications that we build with Framework CodeIgniter such as HRD, GA departments, and transport schedules.
           </p>
         </div>
         <div class="resume-date text-md-right">
@@ -270,7 +288,7 @@ $this->registerCss('
               <div class="resume-content mr-auto">
                 <div class="subheading mb-3">IT Server/Network Admin.</div>
                 <p style="text-align: justify;">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                In infrastructure development there are several devices that we use such as Cisco Routers, Cisco Catalyst, Mikrotik, Juniper and Fortinet Firewalls, while for servers using (IBM, HP and UPS Redundant, Centos, Oracle) for DRC data centers in the Cybre building..
                 </p>
               </div>
             <div class="resume-date text-md-right">
@@ -283,7 +301,7 @@ $this->registerCss('
               <div class="resume-content mr-auto">
                 <div class="subheading mb-3">IT Programing.</div>
                 <p style="text-align: justify;">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                  In this department, we are assigned to create and build also to test the "Online Ticket" application or for internal "checkIn" at every airport in Indonesia. This program is built with PHP Native and with Oracle database.
                 </p>
               </div>
             <div class="resume-date text-md-right">
@@ -296,7 +314,7 @@ $this->registerCss('
               <div class="resume-content mr-auto">
                 <div class="subheading mb-3">IT Helpdesk.</div>
                 <p style="text-align: justify;">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                  In this department, we do the work by helping the client (Travel Agent) in the use of the application, installing the application, troubleshoot applications that both occur due to Permission Application, network problems or application errors. And very often we have to make a schedule to visit our clent throughout Indonesia to repair and install the application.
                 </p>
               </div>
             <div class="resume-date text-md-right">
@@ -309,7 +327,7 @@ $this->registerCss('
               <div class="resume-content mr-auto">
                 <div class="subheading mb-3">IT Support Maintenance.</div>
                 <p style="text-align: justify;">
-                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                  To this company, a small part of "IT SUPPORT", we are building a network of several regional branch offices and airport branches, where the network is connected to an ISP (Internet Service Provider) with a VPN, VSAT service. In the past it still used "blangko tiket", for this reason it required maintenance of PCs, Printers and inter-branch network monitoring..
                 </p>
               </div>
             <div class="resume-date text-md-right">
