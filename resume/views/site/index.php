@@ -148,6 +148,9 @@ $this->registerCss('
           <i class="devicons devicon-yii-plain-wordmark"></i>
         </li>
         <li class="list-inline-item">
+          <i class="devicons devicon-codeigniter-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
           <i class="devicons devicon-laravel-plain-wordmark"></i>
         </li>
         <li class="list-inline-item">
@@ -163,16 +166,31 @@ $this->registerCss('
           <i class="devicons devicon-html5-plain-wordmark"></i>
         </li>           
         <li class="list-inline-item">
-          <i >Vb6</i>
-        </li>           
+          <i class="devicons devicon-express-original-wordmark"></i>
+        </li>                
+		<li class="list-inline-item">
+          <i class="devicons devicon-javascript-plain"></i>
+        </li>
         <li class="list-inline-item">
-          <i >SqlServer</i>
-        </li>           
+          <h3 style="color:#999999;text-transform: capitalize"><i >Vb.6</i></h3>
+        </li>                            
         <li class="list-inline-item">
           <i class="devicons devicon-mysql-plain-wordmark"></i>
         </li>
+		<li class="list-inline-item">
+		   <h3 style="color:#999999;text-transform: capitalize"><i>Sql-Server</i></h3>
+        </li> 		
         <li class="list-inline-item">
           <i class="devicons devicon-apache-plain-wordmark"></i>
+        </li>
+		<li class="list-inline-item">
+          <i class="devicons devicon-ubuntu-plain-wordmark"></i>
+        </li>
+		<li class="list-inline-item">
+		   <h3 style="color:#999999;text-transform: capitalize"><i>Zimbra-Mail</i></h3>
+        </li> 
+		<li class="list-inline-item">
+          <i class="devicons devicon-bootstrap-plain-wordmark"></i>
         </li>
         <li class="list-inline-item">
           <i class="devicons devicon-photoshop-plain"></i>
@@ -184,37 +202,62 @@ $this->registerCss('
           <i class="devicons devicon-github-plain-wordmark"></i>
         </li>     
         <li class="list-inline-item">
-          <i class="devicons devicon-visualstudio-plain-wordmark"></i>
-        </li>
+          <i class="devicons devicon-nodejs-plain-wordmark"></i>
+        </li>  
+        <li class="list-inline-item">
+          <i class="devicons devicon-npm-original-wordmark"></i>
+        </li>  
         <li class="list-inline-item">
           <i class="devicons devicon-phpstorm-plain-wordmark"></i>
         </li>
         <li class="list-inline-item">
-          <i class="devicons devicon-visualstudio-plain-wordmark"></i>
+          <i class="devicons devicon-ssh-original-wordmark"></i>
         </li>
         <li class="list-inline-item">
           <i class="devicons devicon-visualstudio-plain-wordmark"></i>
         </li>
-        <li class="list-inline-item">
-          <i class="devicons devicon-ubuntu-plain-wordmark"></i>
-        </li>
+
 
       </ul>
 
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
+		<li>
+          <i class="fa-li fa fa-check"></i>
+			Agile &amp; Scrum development methodology.
+		</li>
         <li>
           <i class="fa-li fa fa-check"></i>
-          Mobile-First, Responsive Design</li>
+			Web Portal, Development using CodeIgniter,Yii2,Laravel.
+		</li>
         <li>
           <i class="fa-li fa fa-check"></i>
-          Cross Browser Testing &amp; Debugging</li>
+			API, Development using Yii2-Rasfull, ExpressJs.
+		</li>
         <li>
           <i class="fa-li fa fa-check"></i>
-          Cross Functional Teams</li>
+			Mobile (Android/IOS), Development using Ionic, AngularJs, TypesCript, SCSS and  XCode.
+		</li>
         <li>
           <i class="fa-li fa fa-check"></i>
-          Agile Development &amp; Scrum</li>
+			Responsive Template Design using Bootstrap.
+		</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+			Dasboard-Chart using fusioncharts.
+		</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+			Database using Mysql,SqlServer and Firebase.
+		</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Cross Browser Testing &amp; Debugging.
+		</li>        
+        <li>
+          <i class="fa-li fa fa-check"></i>
+			Network &amp; Scurity Infrastucture development using Cisco Router,Cisco Catalyst, Mikrotik, Forinet and Juniper.
+		</li>
       </ul>
     </div>
   </section>

@@ -16,6 +16,14 @@
     }
   },
   {
+    "name": "vb6",
+    "tags": ["framework"],
+    "versions": {
+      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
+      "font": ["plain", "plain-wordmark"]
+    }
+  },
+  {
     "name": "angularjs",
     "tags": ["framework", "javascript"],
     "versions": {
