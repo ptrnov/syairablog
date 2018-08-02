@@ -79,7 +79,7 @@ $this->registerCss('
       <div>
         <ul class="list-inline list-social-icons col-lg-12">
           <li class="list-inline-item">
-            <a href="#" target="_blank" data-toggle="tooltip" title="Linkedin">
+            <a href="https://www.linkedin.com/in/ptrnov" target="_blank" data-toggle="tooltip" title="Linkedin">
               <span class="fa-stack fa-sm">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -94,8 +94,8 @@ $this->registerCss('
               </span>
             </a>Github
           </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/ptrnov" target="_blank" data-toggle="tooltip" title="Development Demo">
+         <li class="list-inline-item">
+            <a href="#portpolio" data-toggle="tooltip" title="Development Demo">
               <span class="fa-stack fa-sm">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
@@ -482,7 +482,7 @@ $this->registerCss('
             <a href="http://93.188.164.106/pos/index.php/login/index" target="_blank"><img class="card-img-top" src="<?php echo Url::base(true);?>./distributor.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="http://93.188.164.106/pos/index.php/login/index" target="_blank">Project Three</a>
+                <a href="http://93.188.164.106/pos/index.php/login/index" target="_blank">Poin Of Sales</a>
               </h4>
               <p class="card-text" style="text-align: justify;">
 				The web portal of " Poin of Sales" is developed using the CodeIgniter.
