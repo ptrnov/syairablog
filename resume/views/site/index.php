@@ -1,6 +1,9 @@
 <?php
+use yii\helpers\Url;
 use resume\assets\AppAssetResume;
 AppAssetResume::register($this); 
+use resume\assets\AppAssetPortpolio;
+AppAssetPortpolio::register($this); 
 
 $this->title = 'ptr.nov';
 $this->registerCss('
@@ -17,7 +20,7 @@ $this->registerCss('
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
     <span class="d-block d-lg-none">Piter Novian</span>
     <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-1" src="http://resume.syaira.int/template/Resume/img/profile.jpg" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-1" src="<?php echo Url::base(true);?>./template/Resume/img/profile.jpg" alt="">
     </span>
   </a>
  
@@ -37,12 +40,11 @@ $this->registerCss('
       </li>
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-      </li>
-     
-      <!-- <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-      </li>
+      </li>     
       <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#portpolio">Portpolio</a>
+      </li>
+      <!--<li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
       </li> -->
     </ul>
@@ -98,7 +100,7 @@ $this->registerCss('
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
               </span>
-            </a>Portofolio
+            </a>Portfolio
           </li>
         </ul>
       </div>
@@ -433,13 +435,75 @@ $this->registerCss('
 
   
 
-  <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+ <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portpolio">
     <div class="my-auto">
-      <h2 class="mb-5">Interests</h2>
-      <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-      <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+      <h2 class="mb-5">Portpolio</h2>
+		<div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="http://doc1.syaira.net/" target="_blank"><img class="card-img-top" src="<?php echo Url::base(true);?>./apidoc.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="http://doc1.syaira.net/" target="_blank">API Documentation</a>
+              </h4>
+              <p class="card-text" style="text-align: justify;">
+				Integrated is an API history, with that various API version levels can be compared.
+				So it can be retraced what changed in the API since the last version.
+			  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="http://cassalunapropertymandiri.com/portal/" target="_blank"><img class="card-img-top" src="<?php echo Url::base(true);?>./property.jpg"" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="http://cassalunapropertymandiri.com/portal/" target="_blank">Backend Web Portal</a>
+              </h4>
+              <p class="card-text" style="text-align: justify;">
+				The web portal of "Property Bookings" is developed using the Laravel framework.
+				<div style="font-size:10px;">
+					<b>&#10173 Test demo admin </b>
+					</br>
+					&#9830 username : sonifirdaus34@gmail.com<br>
+					&#9830 password : asdfgh
+					</br>	
+					<b>&#10173 Test demo user</b>
+					</br>
+					&#9830 Username : salman@gmail.com<br>
+					&#9830 password : asdfgh
+				</div>
+			  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="http://93.188.164.106/pos/index.php/login/index" target="_blank"><img class="card-img-top" src="<?php echo Url::base(true);?>./distributor.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="http://93.188.164.106/pos/index.php/login/index" target="_blank">Project Three</a>
+              </h4>
+              <p class="card-text" style="text-align: justify;">
+				The web portal of " Poin of Sales" is developed using the CodeIgniter.
+				<div style="font-size:10px;">
+					<a href="http://93.188.164.106/pos/index.php/admin" target="_blank"><b>&#10173 Test demo login sebagai distributor</b></a>
+					</br>
+					&#9830 username : administrator <br>
+					&#9830 password : nb011015
+					</br>	
+					<a href="http://93.188.164.106/pos/index.php/admin" target="_blank"><b>&#10173 Test demo login sebagai reseller/ outlet</b></a>
+					</br>
+					&#9830 Username : 0110 <br>
+					&#9830 password : asdfgh
+				</div>
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </section> -->
+  </section> 
 
   <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
     <div class="my-auto">
